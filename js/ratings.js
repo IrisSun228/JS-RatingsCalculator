@@ -15,7 +15,7 @@ const collect_ratings = () => {
         ratings.sum += parseInt(element.value) * rating;
     });
 
-    if (count != 0) {
+    if (ratings.count != 0) {
         ratings.average = ratings.sum / ratings.count;
     }
 
