@@ -9,5 +9,7 @@ const collect_ratings = () => {
 
     const elements = document.querySelectorAll('.rating');
 
-    elements.forEach(element => {});
+    elements.forEach(element => {
+        rating = parseInt(element.id.replace('star', ''));
+    });
 }
