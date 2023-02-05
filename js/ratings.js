@@ -1,0 +1,3 @@
+const collect_ratings = () => {
+    
+}
